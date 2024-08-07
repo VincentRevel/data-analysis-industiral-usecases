@@ -29,7 +29,7 @@ The dataset used in this analysis can be found [here](https://archive.ics.uci.ed
 ### Results
 #### Outliers
 ![Age distribution - mean & percentile](Plots/age-distribution-mean-percentiles.png)
-![Age distribution - skewness](Plots\age-distribution-skewness.png)
+![Age distribution - skewness](Plots/age-distribution-skewness.png)
 
 It doesn't seem like there is any proof that the outlier will interfere with the analysis since:
   1. The outlier is not skewing the data dsitribution too much. This can be seen by comparing the median and average value.  
@@ -38,7 +38,7 @@ It doesn't seem like there is any proof that the outlier will interfere with the
   2. There are a lot of outliers, but the moajority of the data can still be considered to be distributed normally. I might lose important information if I decide to filter out the outliers.  
 
 #### Contact frequency
-![Frequency of contact](Plots\contact-bar-graph.png)  
+![Frequency of contact](Plots/contact-bar-graph.png)  
 The bar graph compares the preferred banking channels used by customers, specifically cellular versus telephone, by counting the contact frequency and ranking the top choice for each customer. Here are the insights and analysis based on the graph:
 
 1. Preference for Cellular Contacts: 
@@ -57,7 +57,7 @@ The bar graph compares the preferred banking channels used by customers, specifi
 - Banks could enhance their reach by integrating mobile-first strategies.
 
 #### Campaign conversion rate
-![campaign conversion rate](Plots\campaign-conversion-rate.png)
+![campaign conversion rate](Plots/campaign-conversion-rate.png)
 Insights
 1. Initial Success: 
 - The **initial** campaigns were both **highly effective** (high conversion rates) and had **high engagement** (high number of responded customers). This indicates **successful marketing efforts during the early stages**.
@@ -122,8 +122,8 @@ Recommendations
 | 17       | Highly engaged      | 4            | 4                   | 58                    | 0.068966          | 0.068966   |
 | 23       | Highly engaged      | 1            | 1                   | 16                    | 0.062500          | 0.062500   |
 
-![campaign segmentation bar chart](Plots\campaign-segmentation-bar.png)
-![campaign segmentation heatmap chart](Plots\campaign-segmentation-heatmap.png)  
+![campaign segmentation bar chart](Plots/campaign-segmentation-bar.png)
+![campaign segmentation heatmap chart](Plots/campaign-segmentation-heatmap.png)  
 
 Based on the graph, the campaign that gives the highest probability of engagement is **Campaign 1**. This is indicated by the tallest bar, particularly for the **"Highly engaged"** category, which shows a **high percentage** relative to other campaigns. The significant height of the bars for **Campaign 1** across all engagement categories suggests it has a **higher probability of engaging customers compared to other campaigns**.  
 
