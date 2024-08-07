@@ -28,7 +28,7 @@ The dataset used in this analysis can be found [here](https://archive.ics.uci.ed
 
 ### Results
 #### Outliers
-![Age distribution - mean & percentile](Plots\age-distribution-mean-percentiles.png)
+![Age distribution - mean & percentile](Plots/age-distribution-mean-percentiles.png)
 ![Age distribution - skewness](Plots\age-distribution-skewness.png)
 
 It doesn't seem like there is any proof that the outlier will interfere with the analysis since:
